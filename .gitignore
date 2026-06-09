@@ -1,6 +1,10 @@
 # Session data — large, machine-local
-!*.jsonl
+*.jsonl
 
+# .claude/ portable config (explicit keep)
+!.claude/settings.local.json
+!.claude/sessionstart-hook-3.sh
+!.claude/README.session.md
 # Go build artifacts
 bin/
 *.exe
