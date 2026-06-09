@@ -1,0 +1,27 @@
+# Session data — large, machine-local
+!*.jsonl
+
+# Go build artifacts
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Python charts
+__pycache__/
+*.pyc
+.pytest_cache/
+*.png
+
+# Reports (regenerated on each run)
+reports/
+data/
+
+# OS
+.DS_Store
+Thumbs.db
