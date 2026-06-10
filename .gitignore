@@ -8,7 +8,7 @@
 !.puku-cli/README.session.md
 !.puku-cli/README.md
 # Go build artifacts
-bench
+/bench
 bin/
 *.exe
 *.exe~
