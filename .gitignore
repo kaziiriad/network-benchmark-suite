@@ -1,11 +1,14 @@
 # Session data — large, machine-local
 *.jsonl
 
-# .claude/ portable config (explicit keep)
-!.claude/settings.local.json
-!.claude/sessionstart-hook-3.sh
-!.claude/README.session.md
+# .puku-cli/ portable config (explicit keep)
+.puku-cli/*
+!.puku-cli/settings.local.json
+!.puku-cli/sessionstart-hook-3.sh
+!.puku-cli/README.session.md
+!.puku-cli/README.md
 # Go build artifacts
+bench
 bin/
 *.exe
 *.exe~
